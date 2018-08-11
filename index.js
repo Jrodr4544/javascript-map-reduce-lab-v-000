@@ -9040,4 +9040,4 @@ var buildHTML = (githubIssue) => {
   return html;
 }
 
-$("tbody#results").innerHTML = nonAutomaticIssues.map(buildHTML, []).join('');
+document.getElementById('results')$("tbody#results").innerHTML = nonAutomaticIssues.map(buildHTML, []).join('');
